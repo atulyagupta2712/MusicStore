@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/atulyagupta2712/MusicApplication/precache-manifest.a5b81745240ffebe1fdf8a7798235a45.js"
+  "/atulyagupta2712/MusicStore/precache-manifest.b75fbed32b96c6e68c5eed461f9ee5e0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/atulyagupta2712/MusicApplication/index.html", {
+workbox.routing.registerNavigationRoute("/atulyagupta2712/MusicStore/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
